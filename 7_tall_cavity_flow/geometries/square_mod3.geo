@@ -1,0 +1,15 @@
+cl_1 = 1;
+Point(1) = {0, 0, 0, cl_1};
+Point(2) = {5, 0, 0, cl_1};
+Point(3) = {0, 1, 0, cl_1};
+Point(4) = {5, 1, 0, cl_1};
+Line(1) = {1, 2};
+Line(2) = {2, 4};
+Line(3) = {4, 3};
+Line(4) = {3, 1};
+Line Loop(12) = {3, 4, 1, 2};
+Plane Surface(12) = {12};
+Plane Surface(13) = {12};
+Physical Surface(14) = {12};
+Physical Surface(15) = {12};
+Physical Surface(16) = {12};
