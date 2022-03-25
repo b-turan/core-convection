@@ -3,5 +3,11 @@ This repository provides several implementations of the Finite-Element-Method (F
 
 The programs range from simple introductory problems such as the cavity flow to more advanced problems like the 2-dimensional mantle/core convection. The latter was realized by linking the Navier-Stokes-Equation with the Heat Equation using the Boussinesq-approximation. Furthermore, the derived PDEs were discretized with advanced numerical approaches, e.g. the [implicit-explicit-scheme](https://epubs.siam.org/doi/abs/10.1137/0732037) (IMEX, 2nd order), which is a multistep time-discretization scheme. Performances with respect to accuracy were analyzed on benchmark problems.
 
+<object data="https://github.com/b-turan/core-convenction/blob/master/pictures/fenics.png" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/b-turan/core-convenction/blob/master/pictures/fenics.png">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/b-turan/core-convenction/blob/master/pictures/fenics.png">Download PDF</a>.</p>
+    </embed>
+</object>
+
 ## Remark
 The code was not intended for the public and was therefore not implemented according to specific coding standards. 
